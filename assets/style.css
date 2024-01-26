@@ -1,0 +1,70 @@
+body {
+    background-color: #212832;
+    font-family: Manrope;
+}
+
+h1 {
+text-align: center;
+color: #60c48e;
+font-size: 20px;
+opacity: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #354050;
+    margin: 12.5rem;
+    padding: 2rem;
+    width: 35%;
+    border-radius: .6rem;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    color: #60c48e;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+p {
+    color: white;
+    font-size: 28px;
+
+}
+
+button {
+    display: flex;
+    background-color: #60c48e;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 21.5px;
+    padding-right: 21.5px;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+    transition: box-shadow 0.5s, animation 0.5s;
+}
+
+button:hover {
+    animation: glow 1.5s infinite alternate;
+    box-shadow: 0 0 20px #71e3a7;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
