@@ -12,9 +12,12 @@ document.getElementById('button').addEventListener('click', function() {
         .then(data => {
             const adviceResult = document.getElementById('adviceResult');
             const adviceId = document.getElementById('adviceID');
+            const adviceLine = document.querySelector('.advice-line'); 
 
             adviceResult.innerHTML = `"${data.slip.advice}"`;
             adviceId.innerHTML = `A D V I C E # ${data.slip.id}`;
+
+            adviceLine.style.display = 'block';
         })
         .catch(error => {
             console.error('Error fetching advice:', error);
