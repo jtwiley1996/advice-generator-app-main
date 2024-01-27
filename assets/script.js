@@ -3,7 +3,7 @@ document.getElementById('button').addEventListener('click', function() {
     document.getElementById('adviceResult').innerHTML = '';
     document.getElementById('adviceID').innerHTML = '';
 
-    // Generate a unique timestamp or random parameter
+    // Generate a random parameter
     const uniqueParam = new Date().getTime(); // Using timestamp as an example
 
     // Make a new API request for advice with the unique parameter
